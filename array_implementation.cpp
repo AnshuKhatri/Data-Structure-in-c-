@@ -25,7 +25,7 @@ int main()
     {
         if(item_price[j]==22)
         {
-            cout<<"the item having price 22 is found at position: "<<j+1<<endl;
+            
             break;
         }
         j++;
@@ -33,8 +33,10 @@ int main()
     if(j==4)
         {
             cout<<"the item having price 22 is not found "<<endl;
-           
         }
+        else
+        cout<<"the item having price 22 is found at position: "<<j+1<<endl;
+        
     
     //update price of item 4 to 100; 0,1,2,3.
     item_price[3]=100;
